@@ -1,0 +1,9 @@
+pydantic
+sqlmodel
+python-docx
+python-pptx
+weasyprint
+pandas
+matplotlib
+pytest
+pyinstaller
