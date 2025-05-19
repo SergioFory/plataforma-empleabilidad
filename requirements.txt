@@ -8,3 +8,5 @@ matplotlib
 pytest
 pyinstaller
 jinja2
+requests
+fastapi

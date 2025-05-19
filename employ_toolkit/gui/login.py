@@ -1,4 +1,4 @@
-# gui/login.py
+# employ_toolkit/gui/login.py
 """
 LoginWindow
 ===========
@@ -92,7 +92,7 @@ class LoginWindow(QWidget):
         """Abre la ventana principal y cierra el login."""
         print(">>> Abriendo MainWindow…")
         # Import diferido para evitar ciclos
-        from gui.main import MainWindow
+        from employ_toolkit.gui.main import MainWindow
 
         self.main = MainWindow(username=user.username, role=user.role)
         self.main.show()

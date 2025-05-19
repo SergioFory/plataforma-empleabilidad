@@ -6,7 +6,8 @@ print(">>> Arrancando aplicación…")
 
 try:
     print(">>> Importando LoginWindow…")
-    from gui.login import LoginWindow
+    from employ_toolkit.gui.login import LoginWindow
+    
 except Exception:
     print(">>> FALLO al importar LoginWindow:")
     traceback.print_exc()
