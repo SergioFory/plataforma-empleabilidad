@@ -11,3 +11,5 @@ from .kpi_form import KPIForm
 from .image_form import ImageForm
 from .cv_form import CVForm
 from .ats_form import ATSForm   # ← al final de la lista
+
+
